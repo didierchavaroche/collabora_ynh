@@ -32,6 +32,10 @@ ram.runtime = "600M"
     [install.domain]
     type = "domain"
 
+    [install.path]
+    type = "path"
+    default = "/openproject"
+
     [install.init_main_permission]
     help.en = "You will only be able to connect Collabora to Nextcloud if both apps are public!"
     help.fr = "Nextcloud et Collabora doivent être des applications publiques si vous voulez les connecter !"
